@@ -27,7 +27,9 @@ boton2.place(x=90, y=400, height=65, width=300)
 
 tkinter.messagebox.showinfo("","LE RECORDAMOS QUE SOLO HABRA UNA FECHA PARA SU INSCRIPCION")
 
-
+img = tkinter.PhotoImage(file="InscripcionMaterias.jpg")
+lbl_img = tkinter.Label(ventana, image = img)
+lbl_img.pack()
 
 
 
